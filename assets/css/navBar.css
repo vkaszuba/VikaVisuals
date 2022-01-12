@@ -1,19 +1,33 @@
-.navBar {
-    background-color: #1c1c1c00;
-    width: 80%;
+#navBar {
+    background-color: #1c1c1c;
+    width: 100%;
     margin: auto;
-    margin-top: 20px;
-    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 5px;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
+    border-bottom: 2px solid #ff00cc;
+    -webkit-animation: Border 5s infinite alternate;
+    letter-spacing: 4px;
 }
 
 #navLogo {
-    width: 200px;
+    width: 150px;
     margin-left: auto;
     margin-right: auto;
     display: block;
     cursor: pointer;
+    padding: 5px;
+    transition: .5s ease;
+    position: fixed;
+    left: 0%;
+    right: 0;
+    z-index: 1;
 }
 
 #portfolioHeader {
@@ -27,6 +41,7 @@
     line-height: 50px;
     transition: .5s ease;
     cursor: pointer;
+    -webkit-animation: Font 5s infinite alternate;
 }
 
 #experienceHeader {
@@ -40,10 +55,11 @@
     line-height: 50px;
     transition: .5s ease;
     cursor: pointer;
+    -webkit-animation: Font 5s infinite alternate;
 } 
 
-#resumePage:hover, #contactPage:hover, #designPage:hover, #codingPage:hover {
-    color: #ff00cc;
+#resumePage:hover, #contactPage:hover, #designPage:hover, #codingPage:hover, #navLogo:hover {
+    color: #fff;
     transition: .5s ease;
     transform: scale(1.1);
 }
@@ -51,4 +67,8 @@
 @-webkit-keyframes Font {
     0% {color: rgb(255, 255, 255);}
     100% {color: #ff00cc}
+  }
+  @-webkit-keyframes Background {
+    0% {background-color: #ffffff;}
+    100% {background-color: #ff00cc}
   }
