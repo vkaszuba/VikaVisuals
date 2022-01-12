@@ -2,32 +2,56 @@
 html {
   height: 100%;
   margin-top: 0px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-  background-image: url("../images/background-prism.png");
+  background-image: url("../images/graphics/background-prism.png");
   background-size: 100%;
   background-position: fixed;
+  color: #fff;
 }
 
 @-webkit-keyframes Font {
   0% {color: rgb(255, 255, 255);}
   100% {color: #ff00cc}
 }
-
-#header {
-  font-size: 150px;
-  color: #fff;
-  font-family: 'Josefin Sans', sans-serif;
-  text-align: center;
-  margin: 20px;
-  -webkit-animation: Font 5s infinite alternate;
+@-webkit-keyframes Border {
+  0% {border-color: rgb(255, 255, 255);}
+  100% {border-color: #ff00cc}
 }
 
+.section {
+  background-color: #1c1c1c;
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 25px 0px 25px 0px;
+  padding: 20px;
+  border: 2px solid #ff00cc;
+  -webkit-animation: Border 5s infinite alternate;
+}
 
+#name {
+  font-size: 100px;
+  text-align: center;
+  margin: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-animation: Font 5s infinite alternate;
+}
+#info {
+  font-size: 35px;
+  text-align: left;
+  margin: 15px;
+  line-height: 55px;
+}
+#about {
+  font-size: 20px;
+  padding: 20px;
+  line-height: 30px;
+}
 
-.card {
-  background-color: #bebebe;
-  opacity: 50%;
-
+#myPicture {
+  width: 100%;
+  border-radius: 25px 0px 25px 0px;
+  display: block;
 }
