@@ -1,0 +1,17 @@
+
+#socials {
+    background-color: #1c1c1c;
+    width: 100%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    -webkit-animation: Border 5s infinite alternate;
+    letter-spacing: 4px;
+}
+#socialIcon {
+    width: 100px;
+    margin: 0px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
