@@ -17,26 +17,26 @@
 }
 
 #portfolioHeader {
-    justify-content: left;
+    justify-content: right;
     line-height: 50px;
     font-size: 40px;
     -webkit-animation: Font 5s infinite alternate;
 }
 #designPage, #codingPage {
-    justify-content: left;
+    justify-content: right;
     line-height: 50px;
     transition: .5s ease;
     cursor: pointer;
 }
 
 #experienceHeader {
-    justify-content: right;
+    justify-content: left;
     line-height: 50px;
     font-size: 40px;
     -webkit-animation: Font 5s infinite alternate;
 }
 #resumePage, #contactPage {
-    justify-content: right;
+    justify-content: left;
     line-height: 50px;
     transition: .5s ease;
     cursor: pointer;
