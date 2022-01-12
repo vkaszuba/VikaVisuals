@@ -3,15 +3,19 @@
     background-color: #1c1c1c;
     width: 100%;
     margin: auto;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    font-weight: bold;
     -webkit-animation: Border 5s infinite alternate;
     letter-spacing: 4px;
 }
 #socialIcon {
-    width: 100px;
-    margin: 0px;
-    margin-left: 15px;
-    margin-top: 15px;
+    width: 70px;
+    margin-bottom: 20px;
+    display: block;
   }
+#socialLinks {
+    font-size: 40px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 0px;
+    line-height: 88px;
+    letter-spacing: 4px;
+}
