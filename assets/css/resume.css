@@ -1,0 +1,25 @@
+
+body {
+  background-image: url("../images/logo-vkgreen.png");
+}
+
+#pageHeader {
+  background: #4f7d41;
+}
+#pageFooter {
+  background: #4f7d41;
+}
+
+#homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
+  color: #4f7d41;
+}
+
+h2 {
+  color: #4f7d41;
+}
+
+h3 {
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,56 @@
+#nameHeader {
+  font-size: 130px;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  cursor: default;
+}
+#titleHeader {
+  font-size: 38px;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+  cursor: default;
+}
+
+#designCard {
+  background-color: #4aaaa5;
+  /* background-image: url("../images/blonde.png"); */
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 40px;
+  padding-top: 15px;
+  padding-left: 30px;
+  height: 100px;
+  transition: .5s ease;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Rajdhani', sans-serif;
+  text-align: left;
+  border-radius: 25px 0px 25px 0px;
+  cursor: pointer;
+  }
+  
+  #codeCard {
+    background-color: #c374c0;
+    /* background-image: url("../images/blonde-right.png"); */
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 40px;
+    padding-top: 15px;
+    padding-right: 30px;
+    height: 100px;
+    transition: .5s ease;
+    font-size: 80px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: right;
+    border-radius: 0px 25px 0px 25px;
+    cursor: pointer;
+  }
+  #codeCard:hover, #designCard:hover {
+    transition: .5s ease;
+    transform: scale(1.05);
+  }

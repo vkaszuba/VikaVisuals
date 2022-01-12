@@ -1,0 +1,19 @@
+
+body {
+  background-image: url("../images/logo-vkred.png");
+}
+
+#pageHeader {
+  background: #a72626;
+}
+#pageFooter {
+  background: #a72626;
+}
+
+#homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
+  color: #a72626;
+}
+
+h2 {
+  color: #a72626;
+}

@@ -1,0 +1,28 @@
+
+body {
+  background-image: url("../images/logo-vkteal.png");
+}
+
+#pageHeader {
+  background: #4aaaa5;
+}
+#pageFooter {
+  background: #4aaaa5;
+}
+
+#homeNav:hover, #aboutNav:hover, #resumeNav:hover, #designNav:hover, #codingNav:hover, #contactNav:hover {
+  color: #4aaaa5;
+}
+
+h2 {
+  color: #4aaaa5;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h4 {
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    margin-left: 20px;
+    line-height: 30px;
+}
