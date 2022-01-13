@@ -24,22 +24,19 @@ document.getElementById("contactPage").onclick = function () {
 
 
 
+var images = ["./assets/images/coding/ct-01.png",
+"./assets/images/coding/ct-02.png",
+"./assets/images/coding/ct-03.png",
+"./assets/images/coding/ct-04.png"];
+var index = 0;
+var ctImages = document.getElementById("chickenTinder");
+var i = 0;
+setInterval(function() {
+    if (++i % 2) {
+        ctImages.style.opacity = 0;
+    } else {
+        ctImages.src = images[index = (index + 1) % images.length];
+        ctImages.style.opacity = 1;
+    }
+}, 4000);
 
-// function designLink() {
-//   document.getElementById("designPage").onclick = function () {
-//   location.href = "./design.html";
-//   }
-// };
-
-// function transition () {
-//     var video = document.getElementById('transition')
-//     video.play();
-//     video.addEventListener('ended', function() {
-//       video.style.display = "none";
-//     })
-//   };
-
-// function designPage() {
-//   transition();
-//   designLink();
-// }

@@ -1,0 +1,11 @@
+#chickenTinder {
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+    transition: opacity 4s;
+}
+
+#phone {
+    width: 500px;
+    position: relative;
+}
