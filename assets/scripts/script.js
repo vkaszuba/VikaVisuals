@@ -23,7 +23,6 @@ document.getElementById("contactPage").onclick = function () {
 
 
 
-
 var chickenImages = ["./assets/images/coding/ct-01.png",
   "./assets/images/coding/ct-02.png",
   "./assets/images/coding/ct-03.png",
@@ -51,34 +50,33 @@ var a = 0;
 var b = 0;
 var c = 0;
 
-
-
 function ctTimer() {
   if (++a % 2) {
-      ctImages.style.opacity = 0;
+    ctImages.style.opacity = 0;
   } else {
-      ctImages.src = chickenImages[ctIndex = (ctIndex + 1) % chickenImages.length];
-      ctImages.style.opacity = 1;
+    ctImages.src = chickenImages[ctIndex = (ctIndex + 1) % chickenImages.length];
+    ctImages.style.opacity = 1;
   }
 };
 
 function wtTimer() {
   if (++b % 2) {
-      wtImages.style.opacity = 0;
+    wtImages.style.opacity = 0;
   } else {
-      wtImages.src = trippinImages[wtIndex = (wtIndex + 1) % trippinImages.length];
-      wtImages.style.opacity = 1;
+    wtImages.src = trippinImages[wtIndex = (wtIndex + 1) % trippinImages.length];
+    wtImages.style.opacity = 1;
   }
 };
 
 function cuTimer() {
   if (++c % 2) {
-      cuImages.style.opacity = 0;
+    cuImages.style.opacity = 0;
   } else {
-      cuImages.src = currencyImages[cuIndex = (cuIndex + 1) % currencyImages.length];
-      cuImages.style.opacity = 1;
+    cuImages.src = currencyImages[cuIndex = (cuIndex + 1) % currencyImages.length];
+    cuImages.style.opacity = 1;
   }
 };
+
 
 setInterval(function () {
   ctTimer();

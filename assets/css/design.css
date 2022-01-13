@@ -1,8 +1,12 @@
-#flyer {
+
+#portfolioGrid {
+    display: grid;
+}
+
+#flyerOne, #flyerTwo {
     width: 100%;
     grid-area: 1 / 1;
     transition: opacity 3s;
-    margin-top: 40px;
 }
 
 #appName {
