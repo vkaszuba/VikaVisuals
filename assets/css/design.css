@@ -1,0 +1,24 @@
+#flyer {
+    width: 100%;
+    grid-area: 1 / 1;
+    transition: opacity 3s;
+    margin-top: 40px;
+}
+
+#appName {
+    font-size: 50px;
+    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    line-height: 60px;
+    color: #ff00cc;
+    letter-spacing: 4px;
+  }
+
+  #h4, #info {
+    font-size: 20px;
+    padding: 25px;
+    line-height: 30px;
+    margin-top: 10px;
+
+  }
