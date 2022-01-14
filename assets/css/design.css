@@ -3,7 +3,7 @@
     display: grid;
 }
 
-#flyerOne, #flyerTwo {
+#flyerOne, #flyerTwo, #logoOne, #logoTwo {
     width: 100%;
     grid-area: 1 / 1;
     transition: opacity 3s;
