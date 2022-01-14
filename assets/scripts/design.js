@@ -37,8 +37,20 @@ var logoOneImages = ["./assets/images/design/logo-vv.png",
     "./assets/images/design/logo-leaf.png"];
 
 var logoTwoImages = ["./assets/images/design/logo-vk.png",
-    "./assets/images/design/logo-tum.png",
-    "./assets/images/design/logo-sfqn.png"];
+    "./assets/images/design/logo-rg.png",
+    "./assets/images/design/logo-tum.png"];
+
+var emoteOneImages = ["./assets/images/design/emoteHype.png",
+    "./assets/images/design/emoteKek.png",
+    "./assets/images/design/emoteThink.png",
+    "./assets/images/design/emoteGasm.png",
+    "./assets/images/design/emoteMoody.png"];
+
+var emoteTwoImages = ["./assets/images/design/emoteRage.png",
+    "./assets/images/design/emoteSoft.png",
+    "./assets/images/design/emoteDrool.png",
+    "./assets/images/design/emoteYell.png",
+    "./assets/images/design/emoteSophia.png"];
 
 
 var flyerOne = document.getElementById("flyerOne");
@@ -47,15 +59,22 @@ var flyerTwo = document.getElementById("flyerTwo");
 var logoOne = document.getElementById("logoOne");
 var logoTwo = document.getElementById("logoTwo");
 
+var emoteOne = document.getElementById("emoteOne");
+var emoteTwo = document.getElementById("emoteTwo");
+
 var flyerOneIndex = 0;
 var flyerTwoIndex = 0;
 var logoOneIndex = 0;
 var logoTwoIndex = 0;
+var emoteOneIndex = 0;
+var emoteTwoIndex = 0;
 
 var d = 0;
 var e = 0;
 var f = 0;
 var g = 0;
+var h = 0;
+var i = 0;
 
 
 function flyerOneTimer() {
@@ -94,9 +113,30 @@ function logoTwoTimer() {
     }
 };
 
+function emoteOneTimer() {
+    if (++h % 2) {
+        emoteOne.style.opacity = 0;
+    } else {
+        emoteOne.src = emoteOneImages[emoteOneIndex = (emoteOneIndex + 1) % emoteOneImages.length];
+        emoteOne.style.opacity = 1;
+    }
+};
+
+function emoteTwoTimer() {
+    if (++i % 2) {
+        emoteTwo.style.opacity = 0;
+    } else {
+        emoteTwo.src = emoteTwoImages[emoteTwoIndex = (emoteTwoIndex + 1) % emoteTwoImages.length];
+        emoteTwo.style.opacity = 1;
+    }
+};
+
+
 setInterval(function () {
     flyerOneTimer();
     flyerTwoTimer();
     logoOneTimer();
-    logoTwoTimer()
+    logoTwoTimer();
+    emoteOneTimer();
+    emoteTwoTimer();
 }, 4000);

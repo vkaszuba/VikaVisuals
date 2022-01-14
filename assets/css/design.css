@@ -3,8 +3,9 @@
     display: grid;
 }
 
-#flyerOne, #flyerTwo, #logoOne, #logoTwo {
+#flyerOne, #flyerTwo, #emoteOne, #emoteTwo, #logoOne, #logoTwo {
     width: 100%;
     grid-area: 1 / 1;
     transition: opacity 3s;
+    margin-bottom: 50px;
 }
