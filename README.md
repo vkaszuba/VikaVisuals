@@ -1,2 +1,0 @@
-# VikaVisuals
-Portfolio Site
