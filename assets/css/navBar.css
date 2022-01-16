@@ -34,14 +34,14 @@
     cursor: pointer;
     -webkit-animation: Font 5s infinite alternate;
 }
-#resumePage, #contactPage {
+#resumePage, #gameArtPage {
     line-height: 50px;
     transition: .5s ease;
     cursor: pointer;
     -webkit-animation: Font 5s infinite alternate;
 } 
 
-#resumePage:hover, #contactPage:hover, #designPage:hover, #codingPage:hover, #navLogo:hover {
+#resumePage:hover, #gameArtPage:hover, #designPage:hover, #codingPage:hover, #navLogo:hover {
     color: #fff;
     transition: .5s ease;
     transform: scale(1.1);

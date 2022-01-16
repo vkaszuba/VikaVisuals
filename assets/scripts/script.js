@@ -15,8 +15,8 @@ document.getElementById("codingPage").onclick = function () {
 document.getElementById("resumePage").onclick = function () {
     location.href = "./resume.html";
 };
-// Redirects to contact page
-document.getElementById("contactPage").onclick = function () {
-    location.href = "./contact.html";
+// Redirects to game art page
+document.getElementById("gameArtPage").onclick = function () {
+    location.href = "./gameart.html";
 };
 
