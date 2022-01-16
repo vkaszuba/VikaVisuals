@@ -3,7 +3,7 @@
     display: grid;
 }
 
-#enviro {
+#enviro, #professional {
     width: 100%;
     grid-area: 1 / 1;
     transition: opacity 3s;
