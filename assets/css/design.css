@@ -14,3 +14,42 @@
   width: 70%;
   margin-top: 50px;
 }
+
+/* Modals for square design items */
+.modal-content {
+  border: 2px solid #ff00cc;
+  border-radius: 20px 0px 20px 0px; 
+  background-color: #1c1c1c;
+  text-align: center;
+}
+.carousel-control-prev {
+  color: black;
+}
+.carousel-indicators {
+  margin: 0px;
+}
+.img-size{
+  height: 850px;
+  margin: 20px;
+}
+#modalBtn {
+  color: #1c1c1c;
+  font-weight: bold;
+  -webkit-animation: Background 5s infinite alternate;
+  transition: .5s ease;
+  width: 160px;
+  outline: 0;
+  box-shadow: none;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px 0px 10px 0px; 
+
+}#modalBtn:hover {
+  transition: .5s ease;
+  transform: scale(1.1);
+}
+
+@-webkit-keyframes Background {
+  0% {background-color: #ffffff;}
+  100% {background-color: #ff00cc}
+}

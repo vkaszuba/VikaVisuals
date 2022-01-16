@@ -8,16 +8,19 @@
     margin-bottom: 30px;
 }
 #socialIcon {
-    width: 30px;
+    width: 50px;
     display: inline-block;
-    margin-top: 50px;
+    margin-top: 30px;
+    transition: .5s ease;
+  } #socialIcon:hover {
+    transition: .5s ease;
+    transform: scale(1.2);
   }
 
 #socialLinks {
-    font-size: 40px;
+    font-size: 30px;
     text-align: left;
     margin-left: 15px;
-    line-height: 30px;
     display: inline-block;
 }
 
@@ -31,7 +34,6 @@
   }
 
   #header {
-    font-size: 80px;
     text-align: center;
     margin: 20px;
     margin-bottom: 20px;

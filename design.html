@@ -16,7 +16,9 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Outfit:wght@100&family=Yantramanav:wght@100&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Outfit:wght@100&family=Yantramanav:wght@100&display=swap"
+        rel="stylesheet">
 
     <!-- CSS links -->
     <link rel="stylesheet" href="assets/css/reset.css">
@@ -51,84 +53,172 @@
             </div>
         </div>
 
+        <!-- Modal for flyers -->
+        <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" style="max-width: 60%;">
+                <div class="modal-content">
+                    <div id="carouselPages" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+
+                            <button type="button" data-bs-target="#carouselPages" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselPages" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselPages" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselPages" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselPages" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselPages" data-bs-slide-to="5"
+                                aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#carouselPages" data-bs-slide-to="6"
+                                aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#carouselPages" data-bs-slide-to="7"
+                                aria-label="Slide 8"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="img-size" src="./assets/images/design/bob.png" class="d-block w-100"
+                                    alt="Babes on Babes">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-size" src="./assets/images/design/tum.png" class="d-block w-100"
+                                    alt="Thank U Marshia">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-size" src="./assets/images/design/uniq01.png" class="d-block w-100"
+                                    alt="Uniq01">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-size" src="./assets/images/design/uniq02.png" class="d-block w-100"
+                                    alt="Uniq02">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-size" src="./assets/images/design/space01.png" class="d-block w-100"
+                                    alt="Space01">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-size" src="./assets/images/design/space02.png" class="d-block w-100"
+                                    alt="Space02">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-size" src="./assets/images/design/vamp.png" class="d-block w-100"
+                                    alt="Vamp">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-size" src="./assets/images/design/foreplay.png" class="d-block w-100"
+                                    alt="Foreplay">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPages"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselPages"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <div id="section" class="row">
             <div class="col">
-            <div id="header" class="row">DESIGN</div>
-            <!-- Flyer Section -->
-            <div class="row">
-                <div id="portfolioGrid" class="col-4">
-                    <img id="flyerOne" src="./assets/images/design/bob.png" alt="Flyer">
+                <div id="header" class="row">DESIGN</div>
+                <!-- Flyer Section -->
+                <div class="row">
+                    <div id="portfolioGrid" class="col-4">
+                        <img id="flyerOne" src="./assets/images/design/bob.png" alt="Flyer">
+                    </div>
+
+                    <div class="col">
+                        <div id="appName" class="row">
+                            NIGHTLIFE FLYERS
+                        </div>
+                        <div id="info" class="row">
+                            Some of the events I worked on were brand new, others were already established and fairly
+                            successful, though having an eye-catching flyer can pull in an even larger crowd. I was
+                            given complete reign on revamping the imagery for older events, and in turn I became the
+                            go-to designer for several LGBT+ nightlife parties. Because of the success, I also had the
+                            opportunity to work on imagery for an event in Canada!
+                        </div>
+
+
+                        <div id="info" class="row">
+                            <button type="button" id="modalBtn" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#galleryModal">
+                                FLYERS GALLERY
+                            </button>
+                        </div>
+
+                    </div>
+
+                    <div id="portfolioGrid" class="col-4">
+                        <img id="flyerTwo" src="./assets/images/design/tum.png" alt="Flyer">
+                    </div>
+
                 </div>
 
-                <div class="col">
-                    <div id="appName" class="row">
-                        NIGHTLIFE FLYERS
+                <!-- Emote Section -->
+                <div class="row">
+                    <div id="portfolioGrid" class="col-4">
+                        <img id="emoteOne" src="./assets/images/design/emoteHype.png" alt="Emote">
                     </div>
-                    <div id="info" class="row">
-                        Some of the events I worked on were brand new, others were already established and fairly
-                        successful, though having an eye-catching flyer can pull in an even larger crowd. I was
-                        given complete reign on revamping the imagery for older events, and in turn I became the
-                        go-to designer for several LGBT+ nightlife parties. Because of the success, I also had the
-                        opportunity to work on imagery for an event in Canada!
+
+                    <div class="col">
+                        <div id="appName" class="row">
+                            TWITCH EMOTES
+                        </div>
+                        <div id="info" class="row">
+                            This recent year I began streaming on Twitch, and expanding my network in the gaming
+                            community more. Within my first week, I became an Affiliate and decided I needed a fully
+                            custom Stream brand with fully customized overlay elements and emotes. As my community grew,
+                            I began creating emotes for other Streamers as well.
+                        </div>
                     </div>
+
+                    <div id="portfolioGrid" class="col-4">
+                        <img id="emoteTwo" src="./assets/images/design/emoteRage.png" alt="Logo">
+                    </div>
+
                 </div>
 
-                <div id="portfolioGrid" class="col-4">
-                    <img id="flyerTwo" src="./assets/images/design/tum.png" alt="Flyer">
+
+                <!-- Logo Section -->
+                <div class="row">
+                    <div id="portfolioGrid" class="col-4">
+                        <img id="logoOne" src="./assets/images/design/logo-vv.png" alt="Logo">
+                    </div>
+
+                    <div class="col">
+                        <div id="appName" class="row">
+                            LOGO DESIGN
+                        </div>
+                        <div id="info" class="row">
+                            San Francisco has a booming nightlife, with new weekly/monthly parties being organized
+                            regularly. With no previous experience in graphic design, I was reached out to by other
+                            LGBT+
+                            community members to help create visuals for these events. Additionally, I've created
+                            several
+                            logos for not only my own branding, but for organizations I know through the several
+                            communities
+                            I'm part of.
+                        </div>
+                    </div>
+
+                    <div id="portfolioGrid" class="col-4">
+                        <img id="logoTwo" src="./assets/images/design/logo-vk.png" alt="Logo">
+                    </div>
+
                 </div>
 
             </div>
-
-            <!-- Emote Section -->
-            <div class="row">
-                <div id="portfolioGrid" class="col-4">
-                    <img id="emoteOne" src="./assets/images/design/emoteHype.png" alt="Emote">
-                </div>
-
-                <div class="col">
-                    <div id="appName" class="row">
-                        TWITCH EMOTES
-                    </div>
-                    <div id="info" class="row">
-                        This recent year I began streaming on Twitch, and expanding my network in the gaming community more. Within my first week, I became an Affiliate and decided I needed a fully custom Stream brand with fully customized overlay elements and emotes. As my community grew, I began creating emotes for other Streamers as well.
-                    </div>
-                </div>
-
-                <div id="portfolioGrid" class="col-4">
-                    <img id="emoteTwo" src="./assets/images/design/emoteRage.png" alt="Logo">
-                </div>
-
-            </div>
-
-
-            <!-- Logo Section -->
-            <div class="row">
-                <div id="portfolioGrid" class="col-4">
-                    <img id="logoOne" src="./assets/images/design/logo-vv.png" alt="Logo">
-                </div>
-
-                <div class="col">
-                    <div id="appName" class="row">
-                        LOGO DESIGN
-                    </div>
-                    <div id="info" class="row">
-                        San Francisco has a booming nightlife, with new weekly/monthly parties being organized
-                        regularly. With no previous experience in graphic design, I was reached out to by other LGBT+
-                        community members to help create visuals for these events. Additionally, I've created several
-                        logos for not only my own branding, but for organizations I know through the several communities
-                        I'm part of.
-                    </div>
-                </div>
-
-                <div id="portfolioGrid" class="col-4">
-                    <img id="logoTwo" src="./assets/images/design/logo-vk.png" alt="Logo">
-                </div>
-
-            </div>
-
         </div>
-</div>
     </div>
 
 
