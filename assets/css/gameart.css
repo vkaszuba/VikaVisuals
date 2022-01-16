@@ -1,5 +1,6 @@
 #portfolioGrid {
     display: grid;
+    margin-bottom: 50px;
 }
 #enviro, #professional, #pluto {
     width: 100%;
@@ -11,7 +12,7 @@
 }
 
 .modal-content {
-  border: 2px solid #ff00cc;
+  -webkit-animation: Border 5s infinite alternate;
   border-radius: 20px 0px 20px 0px; 
   background-color: #1c1c1c;
   text-align: center;
@@ -28,22 +29,27 @@
   margin: 20px;
 }
 #modalBtn {
-  color: #1c1c1c;
-  font-weight: bolder;
-  -webkit-animation: Background 5s infinite alternate;
-  transition: .5s ease;
-  width: 100px;
-  outline: 0;
-  box-shadow: none;
-  border: none;
-  margin-top: 40px;
-  border-radius: 10px 0px 10px 0px; 
-}#modalBtn:hover {
-  transition: .5s ease;
-  transform: scale(1.1);
-}
+    color: #1c1c1c;
+    font-weight: bolder;
+    font-size: 20px;
+    -webkit-animation: Background 5s infinite alternate;
+    transition: .5s ease;
+    width: 140px;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+    margin-top: 40px;
+    border-radius: 10px 0px 10px 0px; 
+  }#modalBtn:hover {
+    transition: .5s ease;
+    transform: scale(1.1);
+  }
 
 @-webkit-keyframes Background {
   0% {background-color: #ffffff;}
   100% {background-color: #ff00cc}
 }
+@-webkit-keyframes Border {
+    0% {border-color: rgb(255, 255, 255);}
+    100% {border-color: #ff00cc}
+  }

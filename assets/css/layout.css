@@ -44,7 +44,7 @@ padding-bottom: 40px;
   font-size: 25px;
   margin-left: 30px;
   margin-bottom: 50px;
-  line-height: 40px;
+  line-height: 35px;
   letter-spacing: 4px;
   justify-content: start;
 }
@@ -110,12 +110,12 @@ a, a:hover, a:focus {
 
 #socials {
   margin-left: 10px;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: 0px;
   display: inline-block;
 }
 #socialIcon {
-  width: 50px;
+  width: 40px;
   transition: .5s ease;
 } #socialIcon:hover {
   transition: .5s ease;

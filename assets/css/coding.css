@@ -1,5 +1,6 @@
 #portfolioGrid {
     display: grid;
+    margin-bottom: 50px;
 }
 #phone, #chickenTinder, #laptop, #weTrippin, #tablet, #currency {
     width: 100%;

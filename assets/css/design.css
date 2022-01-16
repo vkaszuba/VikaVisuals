@@ -1,5 +1,6 @@
 #portfolioGrid {
     display: grid;
+    margin-bottom: 50px;
 }
 #flyerOne, #flyerTwo, #emoteOne, #emoteTwo, #logoOne, #logoTwo {
     width: 100%;
@@ -14,7 +15,7 @@
 }
 
 .modal-content {
-  border: 2px solid #ff00cc;
+  -webkit-animation: Border 5s infinite alternate;
   border-radius: 20px 0px 20px 0px; 
   background-color: #1c1c1c;
   text-align: center;
@@ -33,9 +34,10 @@
 #modalBtn {
   color: #1c1c1c;
   font-weight: bolder;
+  font-size: 20px;
   -webkit-animation: Background 5s infinite alternate;
   transition: .5s ease;
-  width: 100px;
+  width: 140px;
   outline: 0;
   box-shadow: none;
   border: none;
@@ -49,4 +51,8 @@
 @-webkit-keyframes Background {
   0% {background-color: #ffffff;}
   100% {background-color: #ff00cc}
+}
+@-webkit-keyframes Border {
+  0% {border-color: rgb(255, 255, 255);}
+  100% {border-color: #ff00cc}
 }
