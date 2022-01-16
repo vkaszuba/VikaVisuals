@@ -3,7 +3,7 @@
     display: grid;
 }
 
-#enviro, #professional {
+#enviro, #professional, #pluto {
     width: 100%;
     grid-area: 1 / 1;
     transition: opacity 3s;
@@ -22,8 +22,9 @@
   background-color: #1c1c1c;
   text-align: center;
 }
-.carousel-control-prev {
+.carousel-control-prev, .carousel-control-next {
   color: black;
+  width: 5%;
 }
 .carousel-indicators {
   margin: 0px;

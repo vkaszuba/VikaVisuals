@@ -22,8 +22,9 @@
   background-color: #1c1c1c;
   text-align: center;
 }
-.carousel-control-prev {
+.carousel-control-prev, .carousel-control-next {
   color: black;
+  width: 10%;
 }
 .carousel-indicators {
   margin: 0px;
