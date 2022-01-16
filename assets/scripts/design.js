@@ -1,41 +1,32 @@
-
 var flyerOneImages = ["./assets/images/design/bob.png",
     "./assets/images/design/uniq01.png",
     "./assets/images/design/space01.png",
     "./assets/images/design/vamp.png"];
-
 var flyerTwoImages = ["./assets/images/design/tum.png",
     "./assets/images/design/uniq02.png",
     "./assets/images/design/space02.png",
     "./assets/images/design/foreplay.png"];
-
 var logoOneImages = ["./assets/images/design/logo-vv.png",
     "./assets/images/design/logo-vamp.png",
     "./assets/images/design/logo-leaf.png"];
-
 var logoTwoImages = ["./assets/images/design/logo-vk.png",
     "./assets/images/design/logo-rg.png",
     "./assets/images/design/logo-tum.png"];
-
 var emoteOneImages = ["./assets/images/design/emoteHype.png",
     "./assets/images/design/emoteKek.png",
     "./assets/images/design/emoteThink.png",
     "./assets/images/design/emoteGasm.png",
     "./assets/images/design/emoteMoody.png"];
-
 var emoteTwoImages = ["./assets/images/design/emoteRage.png",
     "./assets/images/design/emoteSoft.png",
     "./assets/images/design/emoteDrool.png",
     "./assets/images/design/emoteYell.png",
     "./assets/images/design/emoteSophia.png"];
 
-
 var flyerOne = document.getElementById("flyerOne");
 var flyerTwo = document.getElementById("flyerTwo");
-
 var logoOne = document.getElementById("logoOne");
 var logoTwo = document.getElementById("logoTwo");
-
 var emoteOne = document.getElementById("emoteOne");
 var emoteTwo = document.getElementById("emoteTwo");
 
@@ -52,7 +43,6 @@ var f = 0;
 var g = 0;
 var h = 0;
 var i = 0;
-
 
 function flyerOneTimer() {
     if (++d % 2) {
@@ -107,7 +97,6 @@ function emoteTwoTimer() {
         emoteTwo.style.opacity = 1;
     }
 };
-
 
 setInterval(function () {
     flyerOneTimer();

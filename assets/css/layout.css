@@ -1,21 +1,17 @@
-
 html {
   height: 100%;
   margin-top: 0px;
   font-family: 'Josefin Sans', sans-serif;
 }
-
 body {
   background-image: url("../images/graphics/background-prism.png");
   background-size: 100%;
   background-position: fixed;
   color: #fff;
 }
-
 .container-fluid {
 padding-bottom: 40px;
 }
-
 .row {
   justify-content: center;
 }
@@ -33,7 +29,6 @@ padding-bottom: 40px;
   z-index: 0;
   justify-content: center;
 }
-
 #header {
   font-size: 70px;
   text-align: center;
@@ -53,7 +48,6 @@ padding-bottom: 40px;
   letter-spacing: 4px;
   justify-content: start;
 }
-
 #appName, #title {
   font-size: 35px;
   margin: 15px;
@@ -70,7 +64,6 @@ padding-bottom: 40px;
   margin-left: 20px;
   padding-right: 20px;
 }
-
 #myPicture {
   width: 550px;
   border-radius: 20px 0px 20px 0px;
@@ -84,7 +77,6 @@ li {
   margin-left: 10px;
   line-height: 30px;
 }
-
 ul {
   columns: 1;
   margin-left: 60px;
@@ -94,7 +86,6 @@ ul {
 ol {
   padding-right: 40px;
 }
-
 h1 {
   display: inline-block;
 }
@@ -113,15 +104,8 @@ h4 {
   line-height: 40px;
   font-size: 20px;
 }
-
 a, a:hover, a:focus {
   text-decoration: none!important;
-}
-
-#transition {
-  position: fixed;
-  top: 0%;
-  z-index: 1;
 }
 
 #socials {
@@ -137,7 +121,6 @@ a, a:hover, a:focus {
   transition: .5s ease;
   transform: scale(1.2);
 }
-
 #download {
   width: 50px;
   display: inline-block;
@@ -146,7 +129,6 @@ a, a:hover, a:focus {
   transition: .5s ease;
   transform: scale(1.2);
 }
-
 
 @-webkit-keyframes Font {
   0% {color: rgb(255, 255, 255);}

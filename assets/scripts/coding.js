@@ -1,19 +1,15 @@
-
 var chickenImages = ["./assets/images/coding/ct-01.png",
   "./assets/images/coding/ct-02.png",
   "./assets/images/coding/ct-03.png",
   "./assets/images/coding/ct-04.png"];
-
 var trippinImages = ["./assets/images/coding/wt-01.png",
   "./assets/images/coding/wt-02.png",
   "./assets/images/coding/wt-03.png",
   "./assets/images/coding/wt-04.png"];
-
 var currencyImages = ["./assets/images/coding/cu-01.png",
   "./assets/images/coding/cu-02.png",
   "./assets/images/coding/cu-03.png",
   "./assets/images/coding/cu-04.png"];
-
 
 var ctImages = document.getElementById("chickenTinder");
 var wtImages = document.getElementById("weTrippin");
@@ -52,7 +48,6 @@ function cuTimer() {
     cuImages.style.opacity = 1;
   }
 };
-
 
 setInterval(function () {
   ctTimer();

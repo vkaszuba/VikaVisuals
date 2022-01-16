@@ -1,8 +1,6 @@
-
 #portfolioGrid {
     display: grid;
 }
-
 #phone, #chickenTinder, #tablet, #weTrippin, #tablet-vert, #currency {
     width: 100%;
     grid-area: 1 / 1;

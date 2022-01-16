@@ -15,7 +15,6 @@
     -webkit-animation: Border 5s infinite alternate;
     letter-spacing: 4px;
 }
-
 #navLogo {
     width: 125px;
     cursor: pointer;
@@ -27,7 +26,6 @@
     margin-right: auto; 
     padding-top: 10px;
 }
-
 #designPage, #codingPage {
     line-height: 50px;
     transition: .5s ease;
@@ -40,15 +38,11 @@
     cursor: pointer;
     -webkit-animation: Font 5s infinite alternate;
 } 
-
 #resumePage:hover, #gameArtPage:hover, #designPage:hover, #codingPage:hover, #navLogo:hover {
     color: #fff;
     transition: .5s ease;
     transform: scale(1.1);
 }
-
-
-
 
 @-webkit-keyframes Font {
     0% {color: rgb(255, 255, 255);}

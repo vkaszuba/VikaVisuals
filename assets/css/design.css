@@ -1,8 +1,6 @@
-
 #portfolioGrid {
     display: grid;
 }
-
 #flyerOne, #flyerTwo, #emoteOne, #emoteTwo, #logoOne, #logoTwo {
     width: 100%;
     grid-area: 1 / 1;
@@ -15,7 +13,6 @@
   margin-top: 50px;
 }
 
-/* Modals for square design items */
 .modal-content {
   border: 2px solid #ff00cc;
   border-radius: 20px 0px 20px 0px; 
@@ -44,7 +41,6 @@
   border: none;
   margin-top: 40px;
   border-radius: 10px 0px 10px 0px; 
-
 }#modalBtn:hover {
   transition: .5s ease;
   transform: scale(1.1);
