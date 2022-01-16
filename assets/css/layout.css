@@ -71,7 +71,7 @@ padding-bottom: 40px;
 }
 
 #myPicture {
-  width: 500px;
+  width: 550px;
   border-radius: 20px 0px 20px 0px;
   display: block;
   float: right;
@@ -122,6 +122,21 @@ a, a:hover, a:focus {
   top: 0%;
   z-index: 1;
 }
+
+#socials {
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+#socialIcon {
+  width: 50px;
+  transition: .5s ease;
+} #socialIcon:hover {
+  transition: .5s ease;
+  transform: scale(1.2);
+}
+
 
 @-webkit-keyframes Font {
   0% {color: rgb(255, 255, 255);}
