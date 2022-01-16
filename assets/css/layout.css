@@ -12,6 +12,10 @@ body {
   color: #fff;
 }
 
+.container-fluid {
+padding-bottom: 40px;
+}
+
 .row {
   justify-content: center;
 }
@@ -23,6 +27,7 @@ body {
   margin-top: 100px;
   border-radius: 25px 0px 25px 0px;
   padding: 20px;
+  padding-bottom: 40px;
   border: 2px solid #ff00cc;
   -webkit-animation: Border 5s infinite alternate;
   z-index: 0;
